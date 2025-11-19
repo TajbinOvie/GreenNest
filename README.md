@@ -1,16 +1,143 @@
-# React + Vite
+🌿 GreenNest — Online Plant Shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GreenNest is a modern and responsive plant shop web application built with React, featuring Firebase Authentication, React Toastify notifications, reusable components, and a smooth user experience. The project follows clean architecture and a scalable folder structure similar to The Book Heaven.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🌱 Browse indoor & outdoor plants
 
-## Expanding the ESLint configuration
+🔍 View detailed plant information
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛒 Add to cart, update quantity, remove items
+
+📂 Filter plants by categories
+
+⭐ Featured plants section
+
+🔐 Firebase Authentication (Email/Password, Google Login)
+
+🔔 React Toastify alerts for user actions
+
+📱 Fully responsive layout
+
+⚡ Smooth UI with reusable components and hooks
+
+
+
+🛠️ Tech Stack
+
+React.js
+
+React Router
+
+Firebase Authentication
+
+React Toastify
+
+Tailwind CSS
+
+Context API
+
+Vite
+
+
+
+📁 Folder Structure
+
+src/
+
+components/ – Reusable components like PlantCard, Loader, Navbar, etc.
+
+pages/ – Page components like AllPlants, FeaturedPlants, Cart, Login, Register, etc.
+
+Provider/ – Context providers such as AuthContext, CartContext, ThemeContext
+
+Firebase/ – Firebase configuration and utilities
+
+firebase.config.js
+
+assets/ – Images, icons, and static resources
+
+App.jsx – Main application component
+
+index.jsx – Entry point of the application
+
+
+
+🔐 Firebase Setup
+
+Create a Firebase/firebase.config.js file:
+
+import { initializeApp } from "firebase/app";
+
+const firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_SENDER_ID",
+  appId: "YOUR_APP_ID"
+};
+
+export const app = initializeApp(firebaseConfig);
+
+
+
+🔔 React Toastify Setup
+
+In App.jsx:
+
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
+function App() {
+  return (
+    <>
+      {/* Routes & Components */}
+      <ToastContainer />
+    </>
+  );
+}
+
+export default App;
+
+
+Use a toast anywhere:
+
+import { toast } from "react-toastify";
+
+toast.success("Added to cart!");
+
+
+
+🚀 Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/your-username/GreenNest.git
+cd GreenNest
+
+
+Install dependencies:
+
+npm install
+
+
+Start development server:
+
+npm run dev
+
+🧪 Build for Production
+npm run build
+
+
+
+🎯 Purpose
+
+GreenNest demonstrates professional frontend development with React, reusable components, authentication, responsive UI, and clean architecture — perfect for portfolio and learning advanced concepts.
+
+📄 License
+
+This project is open-source under the MIT License.
