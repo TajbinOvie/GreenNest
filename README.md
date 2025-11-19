@@ -3,6 +3,9 @@
 GreenNest is a modern and responsive plant shop web application built with React, featuring Firebase Authentication, React Toastify notifications, reusable components, and a smooth user experience. The project follows clean architecture and a scalable folder structure similar to The Book Heaven.
 
 
+**Live Site:** https://green-nest-assignment9-tajbin-ovie.netlify.app/
+
+
 
 ✨ Features
 
