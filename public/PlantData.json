@@ -1,0 +1,122 @@
+[
+  {
+    "plantId": 1,
+    "plantName": "Snake Plant",
+    "category": "Air Purifier",
+    "price": 18,
+    "rating": 4.8,
+    "availableStock": 10,
+    "careLevel": "Easy",
+    "description": "A hardy plant that purifies indoor air and thrives in low light.",
+    "image": "https://i.ibb.co.com/twfjvD7s/1-af764eda-b091-4320-953d-e4de57387c54.webp",
+    "providerName": "UrbanGreen Studio"
+  },
+  {
+    "plantId": 2,
+    "plantName": "Peace Lily",
+    "category": "Flowering",
+    "price": 22,
+    "rating": 4.6,
+    "availableStock": 8,
+    "careLevel": "Moderate",
+    "description": "Elegant white blooms with lush green leaves, ideal for bright indoor spaces.",
+    "image": "https://i.ibb.co.com/PG9wYSCq/0004362-tineke-variegated-rubber-tree.jpg",
+    "providerName": "Leaf & Light"
+  },
+  {
+    "plantId": 3,
+    "plantName": "ZZ Plant",
+    "category": "Low Light",
+    "price": 20,
+    "rating": 4.7,
+    "availableStock": 12,
+    "careLevel": "Easy",
+    "description": "Glossy, drought-tolerant plant that thrives in low light and minimal care.",
+    "image": "https://i.ibb.co.com/FLYHrmWk/1566417254329-20190821-1566417255317-b9314f1d9f7a4668a466c5ffb1913a8f.jpg",
+    "providerName": "GreenNest Botanicals"
+  },
+  {
+    "plantId": 4,
+    "plantName": "Fiddle Leaf Fig",
+    "category": "Statement Plant",
+    "price": 35,
+    "rating": 4.5,
+    "availableStock": 5,
+    "careLevel": "Challenging",
+    "description": "Large, violin-shaped leaves make this a dramatic centerpiece for any room.",
+    "image": "https://i.ibb.co.com/hJRbpMqd/Beards-Daises-27-9-220111copy.webp",
+    "providerName": "UrbanGreen Studio"
+  },
+  {
+    "plantId": 5,
+    "plantName": "Pothos",
+    "category": "Trailing",
+    "price": 15,
+    "rating": 4.9,
+    "availableStock": 20,
+    "careLevel": "Easy",
+    "description": "Fast-growing vine with heart-shaped leaves, perfect for shelves and hanging baskets.",
+    "image": "https://i.ibb.co.com/vCVXTM8c/Boston-Fern-Green-Moment-Indoor-Tropical-Houseplant.jpg",
+    "providerName": "Leaf & Light"
+  },
+  {
+    "plantId": 6,
+    "plantName": "Calathea Orbifolia",
+    "category": "Decorative Foliage",
+    "price": 28,
+    "rating": 4.4,
+    "availableStock": 7,
+    "careLevel": "Moderate",
+    "description": "Striking silver-striped leaves that add texture and elegance to indoor spaces.",
+    "image": "https://i.ibb.co.com/ymwRspLy/fd23011-0-wh.jpg",
+    "providerName": "GreenNest Botanicals"
+  },
+  {
+    "plantId": 7,
+    "plantName": "Spider Plant",
+    "category": "Air Purifier",
+    "price": 16,
+    "rating": 4.7,
+    "availableStock": 14,
+    "careLevel": "Easy",
+    "description": "A resilient plant with arching leaves and baby offshoots, great for hanging baskets.",
+    "image": "https://i.ibb.co.com/1f54pyH9/Getty-Images-2170686151-675aeaba15364e1c876dc485f7e6d8d8-1024x1001.webp",
+    "providerName": "Leaf & Light"
+  },
+  {
+    "plantId": 8,
+    "plantName": "Chinese Evergreen",
+    "category": "Low Light",
+    "price": 19,
+    "rating": 4.5,
+    "availableStock": 9,
+    "careLevel": "Moderate",
+    "description": "Colorful foliage and tolerance for low light make this a popular indoor choice.",
+    "image": "https://i.ibb.co.com/Tx13JsZZ/IMG-20220226-173034-1.webp",
+    "providerName": "GreenNest Botanicals"
+  },
+  {
+    "plantId": 9,
+    "plantName": "Rubber Plant",
+    "category": "Statement Plant",
+    "price": 30,
+    "rating": 4.6,
+    "availableStock": 6,
+    "careLevel": "Moderate",
+    "description": "Bold, glossy leaves and upright growth make this a stylish addition to modern interiors.",
+    "image": "https://i.ibb.co.com/BDZSJy2/Snake-Plant.webp",
+    "providerName": "UrbanGreen Studio"
+  },
+  {
+    "plantId": 10,
+    "plantName": "Boston Fern",
+    "category": "Humidity Lover",
+    "price": 17,
+    "rating": 4.4,
+    "availableStock": 11,
+    "careLevel": "Challenging",
+    "description": "Lush fronds that thrive in humid environments, perfect for bathrooms or kitchens.",
+    "image": "https://i.ibb.co.com/vx4TzWhd/45285.jpg",
+    "providerName": "Leaf & Light"
+  }
+]
